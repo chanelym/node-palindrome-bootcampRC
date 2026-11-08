@@ -1,22 +1,35 @@
-# ↔️ Week08 Bootcamp2019a Project: Server Side Palindrome Checker
+#Server-Side Palindrome Checker
 
-### Goal: Create a simple web application that uses the fs and http modules to validate if a string is a palindrome server side.
+The Server-Side Palindrome Checker is a simple web application that allows users to enter a word or phrase and check whether it is a palindrome. A palindrome is a word, phrase, or sequence that reads the same forward and backward.
 
-### How to submit your code for review:
+This project uses Node.js to handle palindrome validation on the server side. The frontend provides a simple interface where users can enter text and receive the validation result.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+##Features
+User Input: Enter a word or phrase to check whether it is a palindrome.
+Palindrome Detection: Determine whether a string reads the same forward and backward.
+Server-Side Validation: Process user input and perform palindrome checks on the backend.
+Dynamic Results: Display the validation result to the user.
+Simple Interface: Use HTML, CSS, and JavaScript to create a straightforward user experience.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+##Tech Stack
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js
+
+##What I Learned
+Understanding how to create and run a server using Node.js.
+Processing user input and performing palindrome validation on the server side.
+Connecting frontend functionality with backend logic.
+Understanding how client-server communication works in a web application.
+Using JavaScript to manipulate and evaluate strings.
+
+##Installation
+Fork and clone the repository.
+Navigate to the project directory.
+Usage
+Run the server using:
+node server.js
+
+Open your browser and navigate to localhost using the port configured in server.js.
+Enter a word or phrase into the input field.
+Submit your input to check whether it is a palindrome.
+View the result displayed by the application.
